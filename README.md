@@ -285,3 +285,4 @@ Ciarelli & Roelofsen look at ***logical*** alternatives, determined by lexical s
 - Ciarelli & Roelofsen alternatives:  
 	**ALT**(***&Alpha;***) = {*p* &in; [[***&Alpha;***]] : there is no *q* &in;  [[***&Alpha;***]] such that *p* &subset; *q*}
 	
+It would seem that these two approaches to alternatives are in principle compatible: focus interacts with the sentence's semantics, quantifying over alternative propositions that are constrained by context and complexity.
