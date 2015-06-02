@@ -198,7 +198,7 @@ But first, a detour looking at the original motivation for alternative semantics
 
 - In the Montagovian framework, two basic type-theoretic operations allow for the composition of meanings
 	1. Function application:  if ***&Alpha;***:<&sigma;, &tau;> and ***&Beta;***:&sigma;, then  
-		[[***&Alpha;***(***&Beta;***)]] = [[A]]([[B]]) &in; *D*<sub>&tau;</sub>
+		[[***&Alpha;***(***&Beta;***)]] = [[A]] ( [[B]] ) &in; *D*<sub>&tau;</sub>
 	2. Abstraction: if ***&Alpha;***:&tau; and ***x***:&sigma;, then  
 		[[***&lambda;x.&Alpha;***]] is the function mapping any *x* &in; *D*<sub>&sigma;</sub> to [[***&Alpha;***]]<sub>*g*[***x***/*x*]</sub>
 - In alternative semantics, if ***&Alpha;*** is of type <&sigma;, &tau;> and &Beta; is of type &sigma;
