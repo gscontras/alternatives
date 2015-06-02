@@ -6,11 +6,10 @@ This repo contains information relevant to the role of grammatical alternatives 
 
 Two phenomena, ***scalar implicature*** and ***association with focus***, make reference to sets of alternatives, which are constrained by grammar and context. In both cases, the relevant alternatives are negated through the assertion of the utterance.
 
-- Examples of both:
-	- John ate ***some*** of the cake. 	 
-		Scalar implicature: John didn't eat all of it
-	- John only at the ***cake***.  
-		Association with focus: John didn't eat, e.g., the cookies
+- John ate ***some*** of the cake. 	 
+	Scalar implicature: John didn't eat all of it
+- John only at the ***cake***.  
+	Association with focus: John didn't eat, e.g., the cookies
 
 Account of Scalar Implicature: Horn Scales (Horn, 1972), in which linguistic elements are related to alternatives through a family of lexical stipulations.  
 			
@@ -20,7 +19,7 @@ Account of focus: Focus Semantics (Rooth, 1985), in which every linguistic eleme
 
 	{ cake, cookies, ... }
 
-Given their remarkable similarity, Fox & Katzir aim to unify these two accounts.
+Given their remarkable similarity, Fox & Katzir aim to unify these two accounts while retaining each's benefits.
 
 #### Scalar implicature
 
@@ -32,7 +31,7 @@ Given their remarkable similarity, Fox & Katzir aim to unify these two accounts.
 	- John has three children.  
 		 ¬ [John has four children]
 	 
-- The scalar implicature of a sentence *S* given a set of alternatives *A* involves the negation of elements in that set of alternatives *A*
+- The scalar implicature of a sentence *S* given a set of alternatives *A* involves the negation of elements in that set of alternatives *A*  
 	- *SI*(*S*) = &and;{¬*S* : *S* &in; *A*}  
 - The strengthened meaning of a sentence incorporates its scalar implicature:
 	- *SM*(*S*) = *S* &and; *SI*(*S*)
@@ -55,11 +54,11 @@ Given their remarkable similarity, Fox & Katzir aim to unify these two accounts.
 - Consider the following sentence with its desired scalar implicature:
 	- John read ***three*** books.  
 		&not; [John read four books]
-- And the sentence's potential alternatives:
+- And some of the sentence's potential alternatives:
 	- John read four books.
 	- John read exactly three books.
-- But if both of these sentences are truly alternatives, we have no home of dervining the scalar implicature; this holds generally of symmetric alternatives
-- A definition of symmetry:
+- If both of these sentences are truly alternatives, we have no hope of deriving the scalar implicature; this holds generally of symmetric alternatives
+- A definition of ***symmetry***:
 	- Let *S*, *S1*, *S2* be three sentences. We say that *S1* and *S2* are ***symmetric*** alternatives of *S* if both
 		1. *S1* &cup; *S2* = *S*, and
 		2. *S1* &cap; *S2* = &empty;
@@ -116,25 +115,25 @@ Given their remarkable similarity, Fox & Katzir aim to unify these two accounts.
 	- For association with focus, *F*(*S*) is determined by Rooth's procedure of focus alternatives based on semantic type
 - We want a unified, non-stipulative theory of grammatical alternatives 
 	- Apply a procedure similar Rooth's to both association with focus and scalar implicature
-	- Without *Horn Scales* or context to break symmetry, we need some other aspect of grammar to do this for us: structure
+	- Without *Horn Scales* or context to break symmetry, we need some other aspect of grammar to do this for us: ***structure***
 
 #### An alternative theory of alternatives
 
 - The goal: a unified theory of *F* (i.e., formal alternatives) for both scalar implicature and association with focus
 	- Define alternatives in terms of replacable elements and their possible replacements
-	- Identify replaceable with the set of focused consituents
+	- Identify replaceable elements with the set of focused consituents
 	- Identify the possible replacements of a constituent with the set of constituents that are at most equally complex
 
 ##### Defining complexity
 
 - Following Katzir (2007), complexity is relativized to a context *C* and evaluated with respect to structure
-- The relation &le;*<sub>c</sub>* --- '*at most as complex as, in context C*' --- orders structures according to complexity
+- The relation &le;*<sub>c</sub>* , '*at most as complex as, in context C*', orders structures according to complexity
 	- *S'* &le;*<sub>c</sub>* *S* if *S'* can be derived from *S* by successive replacements of sub-constituents of *S* with elements of the ***substitution source*** for *S* in *C*, *SS*(*S*, *C*)
 	- *SS*(*X*, *C*), the substitution source for *X* in context *C*, is the union of the following sets:
 		1. The lexicon
 		2. The sub-constituents of *X*
 		3. The set of salient constituents in *C*
-- A structure *X* gets simplified using substitutions from the lexicon and from the set of sub-constituents of *X*
+- A structure *X* gets simplified using substitutions from the lexicon and from the set of sub-constituents of *X* (and from particularly salient elements in context)
 
 ##### Calculating alternatives
 
@@ -142,18 +141,20 @@ Given their remarkable similarity, Fox & Katzir aim to unify these two accounts.
 	- *F*(*S*, *C*) = {*S*' : *S*' is derived from *S* by replacing focused constituents *x<sub>1</sub>*, ... , *x<sub>n</sub>* with *y<sub>1</sub>*, ... , *y<sub>n</sub>*, where *y<sub>1</sub>* &le;*<sub>c</sub> x<sub>1</sub>*, ... , *y<sub>n</sub>* &le;*<sub>c</sub> x<sub>n</sub>*}
 - This definition preserves the generality of Rooth's type-based proposal, while allowing *F* to break symmetry
 	- ***some***, ***all***, and ***some by not all*** are all quantifiers of the same time, but only ***some*** and ***all*** are of the same complexity; ***some but not all*** is strictly more complex
-	- With a structure definition, an occurrence of ***some*** will bring in ***all*** (but not ***some but not all***) as replacements, the negation of which delivers a scalar implicature
-- Contextually salient constituents are allowed in the substitution source to account for cases where a scalar implicature does appeal more complex alternatives:
+	- With a structural definition, an occurrence of ***some*** will bring in ***all*** (but not ***some but not all***) as replacements, the negation of which delivers a scalar implicature
+- Contextually salient constituents are allowed in the substitution source to account for special cases where a scalar implicature does appeal to more complex alternatives:
 	- It was warm yesterday, and it is a little bit more than warm today.  
 		&not; [It was a little bit more than warm yesterday]
 		
 ##### A final note on context
 
-- We might jettison this more complex theory of alternatives if we could ensure that context *C* breaks symmetry
+- We might jettison this more complex complexity theory of alternatives if we could ensure that context *C* breaks symmetry
 - But on the assumption that *S* is relevant whenever it is relevant to know whether *S* is true, we cannot consider *S* relevant without also considering &not;*S* relevant; and if two sentences are relevant, so is their conjunction
 	- Closure assumption for relevance:
 		1. If *S* is relevant, so is &not;*S*
 		2. If *S1*, *S2* are relevant, so is *S1* &and; *S2*
+	- Suppose *S* is relevant, as is the alternative *S1*
+		- By closure, &not;*S1* and *S* &and; &not;*S1* = *S2* are relevant
 - With *C* as the set of relevant sentences, whenever one of two symmetric alternatives is relevant, so is the other; we need something in addition to context (i.e., structural complexity) to break symmetry
 
 ### On the architecture of grammar (Ciardelli & Roelofsen, *to appear*)
@@ -162,15 +163,15 @@ The standard, Montagovian framework for natural language semantics assumes that 
 
 While this move has many desired consequences, including accounts of questions, indefinites, and pronouns, it is not without its problems. Ciardelli & Roelofsen point out two such problems:
 
-1. The compositionality issue: in alternative semantics, meanings can no longer be composed by means of the standard type-theoretic operations of function application and abstraction.
-2. The entailment issue: meanings in alternative semantics can no longer be compared (or conjoined) by means of the standard type-theoretic notion of entailment.
+1. The ***compositionality*** issue: in alternative semantics, meanings can no longer be composed by means of the standard type-theoretic operations of function application and abstraction.
+2. The ***entailment*** issue: meanings in alternative semantics can no longer be compared (or conjoined) by means of the standard type-theoretic notion of entailment.
 
 But first, a detour looking at the original motivation for alternative semantics.
 
 #### Alternative Semantics (Hamblin, 1973)
 
 - Montague (1970):  
-	"I regard the construction of a theory of ***truth*** -- or rather, of the more general notion of truth under and arbitrary interpretation -- as the basic goal of serious syntax and semantics."
+	"I regard the construction of a theory of ***truth*** &ndash; or rather, of the more general notion of truth under an arbitrary interpretation &ndash; as the basic goal of serious syntax and semantics."
 
 - Hamblin:  
 	"What of the many uses of natural language for purposes incidental to, or with other goals than, the embodiment of truth, as in ***questions***...?"  
@@ -182,10 +183,10 @@ But first, a detour looking at the original motivation for alternative semantics
 	- "who" and "what" stand as proper nouns
 	- "how", "when", and "where" stand as adverbs
 	- "what/which X" stand as quantifiers
-	- "Only 'why' seems to lead us outside the bounds of Montague English (and we shall ignore it)."
-- Classing "who" and "what" as proper names, ther should be regarded as denoting ***sets*** of individuals
+	- "*Only 'why' seems to lead us outside the bounds of Montague English (and we shall ignore it).*"
+- Classifying "who" and "what" as proper names, they should be regarded as denoting ***sets*** of individuals
 - A question like "who walks?" itself denotes a set, namely the set whose members are the propositions "X walks", where X is in the denotation of "who"
-- A question sets up a choice-situation between a set of propositions (its answers)
+- A question sets up a choice-situation between a set of propositions (i.e., its answers)
 
 ##### Adding in indicatives
 
@@ -221,7 +222,7 @@ But first, a detour looking at the original motivation for alternative semantics
 - Possibility semantics introduces complexity in our basic propositional type:
 	- Propositions are type <<*s*, *t*>, *t*>, abbreviated as *T*
 	- ***walks***:<*e*, *T*>
-	- [[***walks***]] = &lambda;*x*.{|*Wx*|} = &lambda;*x*.{ {*w* : *x* walks in *x*} }
+	- [[***walks***]] = &lambda;*x*.{|*Wx*|} = &lambda;*x*.{ {*w* : *x* walks in *w*} }
 - A worked-out example for the question "Who did John see?"
 	- ***who &lambda;x John saw x***
 		- [[***John***]] = *j*
@@ -229,6 +230,7 @@ But first, a detour looking at the original motivation for alternative semantics
 		- [[***who***]] = &lambda;*P*<sub><*e*,*T*></sub>. U<sub>*x*&in;*D*<sub>*e*</sub></sub> *P*(*x*)
 	- [[***&lambda;x John saw x***]] = &lambda;*x*.{|*Sjx*|}
 	- [[***who &lambda;x John saw x***]] = {|*Sjx*| : *x* &in; *D*<sub>*e*</sub>}
+- The result saves composition by having propositions, but not necessarily sub-constituents, refer to sets of alternatives
 
 #### We still face a problem with entailment
 
@@ -255,7 +257,7 @@ But first, a detour looking at the original motivation for alternative semantics
 - Rather than construing [[***&Alpha;***]]  and [[***&Beta;***]] as the singleton sets {|***&Alpha;***|} and {|***&Beta;***|}, construe them as the ***powersets*** &#119979;(|***&Alpha;***|) and &#119979;(|***&Beta;***|)
 - The meaning of "John walks" is now the set of all propositions that contain enough information to establish that John walks
 	- It contains all propositions *p* such that John walks in every world in *p*
-	- Not just the proposition containing precisely the information that John walks (i.e., the set of all worls in which John walks)
+	- Not just the proposition containing precisely the information that John walks (i.e., the set of all worlds in which John walks)
 - We can recover the unique alternative for "John walks" as the ***maximal element*** of its meaning
 
 #### Inquisitive semantics
@@ -270,15 +272,15 @@ But first, a detour looking at the original motivation for alternative semantics
 
 ### Comparing the two approaches
 
-Fox & Katzir and Ciarelli & Roelofsen are concerned with fundamentally different phenomena, yet both appeal to grammatical alternatives. For Fox & Katzir, these alternatives are ***structural***, and determined by focus; they feed into a broader program of covert exhaustification, which amounts to inserting silent "only" as-needed to strength sentence meanings. Their alternatives are computed on the basis of lexical/structural substitutions:
+Fox & Katzir and Ciarelli & Roelofsen are concerned with fundamentally different phenomena, yet both appeal to grammatical alternatives. For Fox & Katzir, these alternatives are ***structural***, and determined by focus; they feed into a broader program of covert exhaustification, which amounts to inserting silent "only" as-needed to strengthen sentence meanings. Their alternatives are computed on the basis of lexical/structural substitutions:
 
 - Fox & Katzir alternatives:  
-	*F*(*S*, *C*) = {*S*' : *S*' is derived from *S* by replacing focused constituents *x<sub>1</sub>*, ... , *x<sub>n</sub>* with *y<sub>1</sub>*, ... , *y<sub>n</sub>*, where *y<sub>1</sub>* &le;*<sub>c</sub> x<sub>1</sub>*, ... , *y<sub>n</sub>* &le;*<sub>c</sub> x<sub>n</sub>*}  
-	*S'* &le;*<sub>c</sub>* *S* if *S'* can be derived from *S* by successive replacements of sub-constituents of *S* with elements of the substitution source for *S* in *C*, *SS*(*S*, *C*)  
-	*SS*(*X*, *C*), the substitution source for *X* in context *C*, is the union of the following sets:
-		1. The lexicon
-		2. The sub-constituents of *X*
-		3. The set of salient constituents in *C* 
+	***F***(***S***, ***C***) = {*S*' : *S*' is derived from ***S*** by replacing focused constituents *x<sub>1</sub>*, ... , *x<sub>n</sub>* with *y<sub>1</sub>*, ... , *y<sub>n</sub>*, where *y<sub>1</sub>* &le;*<sub>c</sub> x<sub>1</sub>*, ... , *y<sub>n</sub>* &le;*<sub>c</sub> x<sub>n</sub>*}  
+	*S'* &le;*<sub>c</sub>* ***S*** if *S'* can be derived from ***S*** by successive replacements of sub-constituents of ***S*** with elements of the substitution source for ***S*** in ***C***, ***SS***(***S***, ***C***)  
+	***SS***(***X***, ***C***), the substitution source for ***X*** in context ***C***, is the union of the following sets:  
+	1. The lexicon  
+	2. The sub-constituents of ***X***  
+	3. The set of salient constituents in ***C*** 
 
 Ciarelli & Roelofsen look at ***logical*** alternatives, determined by lexical semantics. They require a particular view of compositional semantics under which a sentence denotes a set of propositions (i.e., sets of worlds) that is downward closed. Their alternatives constitute the maximal elements of a sentence's denotation:
 
@@ -286,3 +288,7 @@ Ciarelli & Roelofsen look at ***logical*** alternatives, determined by lexical s
 	**ALT**(***&Alpha;***) = {*p* &in; [[***&Alpha;***]] : there is no *q* &in;  [[***&Alpha;***]] such that *p* &subset; *q*}
 	
 It would seem that these two approaches to alternatives are in principle compatible: focus interacts with the sentence's semantics, quantifying over alternative propositions that are constrained by context and complexity.
+
+### Comparing formal alternatives with alternative utterances
+
+<***audience participation***>
