@@ -128,7 +128,7 @@ Given their remarkable similarity, Fox & Katzir aim to unify these two accounts.
 ##### Defining complexity
 
 - Following Katzir (2007), complexity is relativized to a context *C* and evaluated with respect to structure
-- The relation &le;*<sub>c</sub>* --- `*at most as complex as, in context C*' --- orders structures according to complexity
+- The relation &le;*<sub>c</sub>* --- '*at most as complex as, in context C*' --- orders structures according to complexity
 	- *S'* &le;*<sub>c</sub>* *S* if *S'* can be derived from *S* by successive replacements of sub-constituents of *S* with elements of the ***substitution source*** for *S* in *C*, *SS*(*S*, *C*)
 	- *SS*(*X*, *C*), the substitution source for *X* in context *C*, is the union of the following sets:
 		1. The lexicon
@@ -182,7 +182,7 @@ But first, a detour looking at the original motivation for alternative semantics
 	- "who" and "what" stand as proper nouns
 	- "how", "when", and "where" stand as adverbs
 	- "what/which X" stand as quantifiers
-	- "Only `why' seems to lead us outside the bounds of Montague English (and we shall ignore it)."
+	- "Only 'why' seems to lead us outside the bounds of Montague English (and we shall ignore it)."
 - Classing "who" and "what" as proper names, ther should be regarded as denoting ***sets*** of individuals
 - A question like "who walks?" itself denotes a set, namely the set whose members are the propositions "X walks", where X is in the denotation of "who"
 - A question sets up a choice-situation between a set of propositions (its answers)
@@ -263,7 +263,7 @@ But first, a detour looking at the original motivation for alternative semantics
 - The meaning of a sentence consists of all propositions that contain ***enough*** information to resolve the issue that the sentence raises
 - Sentential meanings are ***downward closed*** sets of propositions
 	- If *p* contains enough information to resolve the issue that ***&Alpha;*** raises, then any *q* &subseteq; *p* will also contain enough information to do so
-- The ***alternatives*** that ***&Alpha;*** introduces can be recovered as the ***maximal elements&&& of [[***&Alpha;***]]
+- The ***alternatives*** that ***&Alpha;*** introduces can be recovered as the ***maximal elements*** of [[***&Alpha;***]]
 	- These alternatives contain enough information to resolve the issue raised by ***&Alpha;***, but nore more information than necessary
 	- **ALT**(***&Alpha;***) = {*p* &in; [[***&Alpha;***]] : there is no *q* &in;  [[***&Alpha;***]] such that *p* &subset; *q*}
 - Rather than identifying the meaning of a sentence with a set of alternatives, Inquisitive Semantics has the meaning of a sentence determine a set of a alternatives
