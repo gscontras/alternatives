@@ -140,7 +140,7 @@ Given their remarkable similarity, Fox & Katzir aim to unify these two accounts 
 - The formal alternatives of a sentence *S* are defined as the set of all structures obtained from *S* by replacing ***focused constituents*** within *S* with constituents that are at most as complex as the original constituent
 	- *F*(*S*, *C*) = {*S*' : *S*' is derived from *S* by replacing focused constituents *x<sub>1</sub>*, ... , *x<sub>n</sub>* with *y<sub>1</sub>*, ... , *y<sub>n</sub>*, where *y<sub>1</sub>* &le;*<sub>c</sub> x<sub>1</sub>*, ... , *y<sub>n</sub>* &le;*<sub>c</sub> x<sub>n</sub>*}
 - This definition preserves the generality of Rooth's type-based proposal, while allowing *F* to break symmetry
-	- ***some***, ***all***, and ***some by not all*** are all quantifiers of the same time, but only ***some*** and ***all*** are of the same complexity; ***some but not all*** is strictly more complex
+	- ***some***, ***all***, and ***some by not all*** are all quantifiers of the same type, but only ***some*** and ***all*** are of the same complexity; ***some but not all*** is strictly more complex
 	- With a structural definition, an occurrence of ***some*** will bring in ***all*** (but not ***some but not all***) as replacements, the negation of which delivers a scalar implicature
 - Contextually salient constituents are allowed in the substitution source to account for special cases where a scalar implicature does appeal to more complex alternatives:
 	- It was warm yesterday, and it is a little bit more than warm today.  
@@ -226,7 +226,7 @@ But first, a detour looking at the original motivation for alternative semantics
 - A worked-out example for the question "Who did John see?"
 	- ***who &lambda;x John saw x***
 		- [[***John***]] = *j*
-		- [[***saw***]] = &lambda;*x*.&lambda;*y*.{|*Syx*|}
+		- [[***saw***]] = &lambda;*y*.&lambda;*x*.{|*Syx*|}
 		- [[***who***]] = &lambda;*P*<sub><*e*,*T*></sub>. U<sub>*x*&in;*D*<sub>*e*</sub></sub> *P*(*x*)
 	- [[***&lambda;x John saw x***]] = &lambda;*x*.{|*Sjx*|}
 	- [[***who &lambda;x John saw x***]] = {|*Sjx*| : *x* &in; *D*<sub>*e*</sub>}
@@ -266,11 +266,11 @@ But first, a detour looking at the original motivation for alternative semantics
 - Sentential meanings are ***downward closed*** sets of propositions
 	- If *p* contains enough information to resolve the issue that ***&Alpha;*** raises, then any *q* &subseteq; *p* will also contain enough information to do so
 - The ***alternatives*** that ***&Alpha;*** introduces can be recovered as the ***maximal elements*** of [[***&Alpha;***]]
-	- These alternatives contain enough information to resolve the issue raised by ***&Alpha;***, but nore more information than necessary
+	- These alternatives contain enough information to resolve the issue raised by ***&Alpha;***, but no more information than necessary
 	- **ALT**(***&Alpha;***) = {*p* &in; [[***&Alpha;***]] : there is no *q* &in;  [[***&Alpha;***]] such that *p* &subset; *q*}
-- Rather than identifying the meaning of a sentence with a set of alternatives, Inquisitive Semantics has the meaning of a sentence determine a set of a alternatives
+- Rather than identifying the meaning of a sentence with a set of alternatives, Inquisitive Semantics has the meaning of a sentence determine a set of alternatives
 
-### Comparing the two approaches
+### Comparing the two proposals
 
 Fox & Katzir and Ciarelli & Roelofsen are concerned with fundamentally different phenomena, yet both appeal to grammatical alternatives. For Fox & Katzir, these alternatives are ***structural***, and determined by focus; they feed into a broader program of covert exhaustification, which amounts to inserting silent "only" as-needed to strengthen sentence meanings. Their alternatives are computed on the basis of lexical/structural substitutions:
 
